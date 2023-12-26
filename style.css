@@ -15,3 +15,23 @@ input.form-control {
 input:focus {
     box-shadow: none !important;
 }
+
+#btn {
+    width: 4.5rem;
+    padding: 5px 10px ;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 20px;
+    background-color: #5d49e1;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+}
+
+#btn:hover {
+    background-color: #3728b7;
+}
+
+#views {
+    color:grey !important;
+}

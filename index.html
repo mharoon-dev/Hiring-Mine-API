@@ -11,20 +11,23 @@
   </head>
   <body>
 
-    <div class="container" style="border: 2px solid red;">
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center align-items-center mt-3 ">
-                <img class="me-3" src="./assests/logo.png" width="150rem">
+     <div class="container">
+      <div class="row">
+       <div class="col-12 d-flex justify-content-center align-items-center mt-3 ">
+           <img class="me-3" src="./assests/logo.png" width="150rem">
 
-                <div class="input-group me-3" style="width: 30% !important;">
-                  <input type="text" class="form-control">
-                  <span class="input-group-text searchIcon bg-transparent"><img src="./assests/search icon.png" width="20rem"></span>
+           <div class="input-group me-3" style="width: 30% !important;">
+             <input type="text" class="form-control inputValue" placeholder="Find Job">
+             <span class="input-group-text searchIcon bg-transparent searchBtn" onclick="apiFunction()"><img src="./assests/search icon.png" width="20rem"></span>
 
-                </div>
+           </div>
 
-            </div>
+       </div>
 
-            <div class="offset-lg-1 col-lg-5 col-12 mt-4">
+      </div>
+        <div class="row myRow">
+
+            <!-- <div class="offset-lg-1 col-lg-5 col-12 mt-4">
 
               <div class="bg-white p-2 py-3"
               style="border-radius: 15px;
@@ -33,24 +36,40 @@
               -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);">
 
                     <div class="d-flex justify-content-between align-items-center w-100">
-                      <h6 id="companyName">Company Name</h6>
-                      <img src="./assests/short logo.png" width="50rem">
+                      <h6 id="companyName" class="ms-2  mb-0">Company Name</h6>
+                      <img class="me-2 " src="./assests/short logo.png" width="50rem">
                     </div>
                     
                     
-                      <h5 id="designation">Designation</h5>
+                      <h5 id="designation" class="ms-2 mt-2">Designation</h5>
 
-                      <h5 id="salary" style="color: #5d49e1;">Salary</h5>
+                      <h5 id="salary" class="ms-2 mt-2" style="color: #5d49e1;">Salary</h5>
+
+                      <div class="d-flex justify-content-between align-items-center ms-1 pt-2 ">
+                        <button id="btn" class="d-flex justify-content-center align-items-center" class="mt-2">Onsite</button>
+
+                        <div class="d-flex justify-content-center align-items-center">
+                          <h6 id="city " class="pe-2 text-uppercase mb-0">City</h6>
+                          <h6 id="country " class="pe-2 text-uppercase mb-0">Country</h6>
+                        </div>
+
+                        
+                      </div>
+
+                      <div class="w-100 d-flex justify-content-end align-items-center ">
+                        <p class="mb-0 pt-2 pe-2" id="views">Views</p>
+                      </div>
+                      
 
 
                   </div>
 
 
-          </div>
+          </div> -->
            
 
             </div>
-        </div>
+        </div> 
 
 
 
