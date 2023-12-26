@@ -1,0 +1,17 @@
+input,
+.searchIcon {
+    border: 2px solid lightgrey !important;
+}
+
+input.form-control {
+    border: 2px solid lightgrey !important;
+    border-right: 0px !important;
+}
+
+.searchIcon {
+    border-left: 0px !important;
+}
+
+input:focus {
+    box-shadow: none !important;
+}
